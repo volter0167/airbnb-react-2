@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  margin: initial;
+  padding: 30px 40px;
+  box-shadow: 0px 2px 7px #c4c4c4;
+}
+
+header > img {
+  width: 120px;
+  height: 35px;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+main > img {
+  max-width: 70%;
+  height: auto;
+  align-self: center;
+}
+
+main > h1 {
+  margin-top: 30px;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.4375rem;
+  color: #000000;
+}
+
+main > p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.1rem;
+  color: #222222;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.card {
+  margin-top: 50px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.card--header {
+  width: inherit;
+}
+
+.card--logo {
+  width: 15rem;
+}
+
+.card--tag {
+  position: absolute;
+  margin: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  height: 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 0.64rem;
+  color: #222222;
+  display: flex;
+  justify-content: center safe;
+  align-items: center;
+  position: relative;
+  width: 25%; 
+  top: 40px;
+  flex: 0 0 auto;
+}
+
+.card--star-section {
+  display: flex;
+  gap: 5px;
+}
+
+.card--star-section > p, span{
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
+
+.card--star-section > p {
+  color: #918E9B;
+}
+
+.card--star-section > p > span {
+  color: #222222;
+}
+
+.card--star-section > img {
+  width: 14px;
+}
+
+.card--title {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  color: #222222;
+}
+
+.card--title, .price {
+  margin-top: 8px;
+}
+
+.price > span {
+  font-weight: 600;
+}
+
+.price {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
